@@ -59,6 +59,12 @@ Our next step was to assess whether the best performing GAM was predicting reaso
 
 ![trainTest](images/testResults.png)
 
+| Period | Accuracy | MSE | MAE |
+| :--- | :---: | :---: | :---: |
+| In Season | 0.395 | 1.303 | 0.818 | 0.674 |
+| Out of Season | 0.636 | 0.462 | 0.393 | 0.463 |
+| Total | 0.512 | 0.837 | 0.609 | 0.561 |
+
 ```
 git status
 git add
